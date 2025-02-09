@@ -82,8 +82,8 @@ class DataTableExample extends StatelessWidget {
       ],
       source: dataSource,
       showFirstLastButtons: true,
-      dataRowHeight: 30,
-      
+      dataRowMinHeight: 30,
+      dataRowMaxHeight: 40,
     );
   }
 }
